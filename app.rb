@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   configure do
     enable :sessions
-    set :session_secret "roodster"
+    set :session_secret, "roodster"
   end
 
   GET '/' do
